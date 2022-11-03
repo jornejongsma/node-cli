@@ -30,8 +30,8 @@ Het is relatief snel op te zetten, geen complexe api, en het levert je een grote
 
 ## Installatie
 
+* Clone deze repo in je home folder (windows): `C:/Users/[username]`, rename de folder van deze repo naar `.js`
 * Voeg de line in `.zshrc` toe aan je eigen config, of aan je `.bashrc` file, te vinden in (Windows) `C:/Users/[username]`
-* Voeg de gehele `.js` folder toe aan je eigen user folder: `C:/Users/[username]`
 * In de `.js` installeer de **node_modules**: `npm install`
 * Nou zou je vanaf ieder pad in je bash terminal het **jj** script moeten kunnen uitvoeren. test: `jj -h`, voor de help functie
 
