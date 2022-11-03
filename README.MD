@@ -30,10 +30,12 @@ Het is relatief snel op te zetten, geen complexe api, en het levert je een grote
 
 ## Installatie
 
-* Clone deze repo in je home folder (windows): `C:/Users/[username]`, rename de folder van deze repo naar `.js`
+* Clone deze repo in je home folder (windows): `C:/Users/[username]`, rename de folder van deze repo naar `.js` 
 * Voeg de line in `.zshrc` toe aan je eigen config, of aan je `.bashrc` file, te vinden in (Windows) `C:/Users/[username]`
 * In de `.js` installeer de **node_modules**: `npm install`
 * Nou zou je vanaf ieder pad in je bash terminal het **jj** script moeten kunnen uitvoeren. test: `jj -h`, voor de help functie
+
+> Zoals je ziet maak je met `.zshrc` een environment path aan naar `.js` folder, waardoor je bash terminal altijd daar kijkt naar het te matchen command dat je hebt ingevoerd in je terminal.
 
 > Je kan uiteraard het script van naam veranderen, nieuwe scripts toevoegen: de naam van je script (zonder extensie) is gelijk de naam van cli command
 
