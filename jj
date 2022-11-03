@@ -1,0 +1,35 @@
+#!/usr/bin/env -S NODE_PATH='C:/Users/jorne/.js/node_modules' ESM_OPTIONS='{cache:false,await:true}' node -r esm -r globals
+import 'globals'
+import generateLit from 'generate-lit';
+
+yargs
+  .command(
+    ["generate [type] [name]", "g [type] [name]"],
+    "generate a component",
+    (yargs) => {
+      yargs.positional("type", {
+        describe: "what to generate",
+        choices: ["component", "lit"],
+        default: "lit",
+      });
+      yargs.positional("name", {
+        describe: "what to name the component",
+      });
+    },
+    (argv) => {
+      generate(argv.type, argv.name);
+    }
+  )
+  .help("h", "help")
+  .parse();
+
+async function generate(type, name) {
+  switch (type) {
+    case "lit":
+      generateLit(name);
+      break;
+    default:
+      break;
+  }
+}
+
