@@ -3,6 +3,8 @@
 Een Node js script, uit te voeren in bash terminal. In een eenvoudig systeem, nooit meer cli commands hoeven maken met bash, maar nu met NodeJs, hoe cool is dat!
 
 Met dit script kan je in je bash terminal snel je basis genereren voor een lit-webcomponent, cli-command: `jj generate lit [component-name]`
+Uiteraard kan je dit script uitbreiden met een variant voor React/Vue/Angular/anything
+
 Het genereert de volgende bestanden met de juiste naamvoering:
 
 file | omschrijving
@@ -16,6 +18,7 @@ file | omschrijving
 > Het script checkt of je wel in een folder staat met een **components** folder, anders word je gevraag dat te crëeeren of te aborten.
 
 > Het script het een vrij degelijke help functie: `jj -h` of `jj -help`
+
 
 ## Motivation
 
